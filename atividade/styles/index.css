@@ -1,35 +1,11 @@
-*{
-    margin: 0%;
-    padding: 0%;
+/* Este é um exemplo simples de CSS, você pode expandir conforme necessário */
+body {
+    background-color: #f8f9fa;
 }
 
-.filme{
-    width: 400px;
-    margin: 20px;
-    box-shadow: 5px 5px 10px rgb(180, 180, 180);
+.container {
+    background-color: #fff;
     padding: 20px;
-    display: flex;
-    gap: 15px;
-    flex-direction: column;
-    align-items: center;
-    background-color: azure;
-}
-
-.verMais{
-    padding: 10px;
-    background-color: blueviolet;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-.verMais:hover{
-    background-color: rgb(118, 37, 194);
-}
-
-.grupoFilmes{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
